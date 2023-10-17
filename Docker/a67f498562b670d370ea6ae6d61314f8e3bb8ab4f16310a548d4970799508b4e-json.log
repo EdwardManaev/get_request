@@ -1,0 +1,34 @@
+{"log":"The files belonging to this database system will be owned by user \"ContainerUser\".\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8848307Z"}
+{"log":"This user must also own the server process.\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8848307Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8848307Z"}
+{"log":"The database cluster will be initialized with locale \"C\".\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8975551Z"}
+{"log":"The default text search configuration will be set to \"english\".\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980724Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"Data page checksums are disabled.\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"fixing permissions on existing directory C:/pgsql/data ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"creating subdirectories ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"selecting dynamic shared memory implementation ... windows\r\n","stream":"stdout","time":"2023-10-17T07:43:02.8980809Z"}
+{"log":"selecting default max_connections ... 100\r\n","stream":"stdout","time":"2023-10-17T07:43:02.9507771Z"}
+{"log":"selecting default shared_buffers ... 128MB\r\n","stream":"stdout","time":"2023-10-17T07:43:02.9861248Z"}
+{"log":"selecting default time zone ... GMT\r\n","stream":"stdout","time":"2023-10-17T07:43:02.9893394Z"}
+{"log":"creating configuration files ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:02.9969001Z"}
+{"log":"running bootstrap script ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:03.2351223Z"}
+{"log":"performing post-bootstrap initialization ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:03.9725897Z"}
+{"log":"syncing data to disk ... ok\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"initdb: warning: enabling \"trust\" authentication for local connections\r\n","stream":"stderr","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"You can change this by editing pg_hba.conf or using the option -A, or\r\n","stream":"stderr","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"--auth-local and --auth-host, the next time you run initdb.\r\n","stream":"stderr","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"Success. You can now start the database server using:\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"    pg_ctl -D ^\"C^:^\\pgsql^\\data^\" -l logfile start\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0438128Z"}
+{"log":"authMethod: md5\r\n","stream":"stdout","time":"2023-10-17T07:43:05.0496324Z"}
+{"log":"The system cannot find the drive specified.\r\n","stream":"stderr","time":"2023-10-17T07:43:05.0522699Z"}
+{"log":"waiting for server to start.... done\r\n","stream":"stdout","time":"2023-10-17T07:43:05.19301Z"}
+{"log":"server started\r\n","stream":"stdout","time":"2023-10-17T07:43:05.1935423Z"}
+{"log":"waiting for server to shut down.... done\r\n","stream":"stdout","time":"2023-10-17T07:43:05.3585754Z"}
+{"log":"server stopped\r\n","stream":"stdout","time":"2023-10-17T07:43:05.3591344Z"}
+{"log":"PostgreSQL init process complete; ready for start up.\r\n","stream":"stdout","time":"2023-10-17T07:43:05.3611699Z"}
